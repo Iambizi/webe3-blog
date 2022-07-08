@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.EasyMDEContainer .editor-toolbar {
+  border: none;
+}
+
+.EasyMDEContainer .CodeMirror {
+  border: none !important;
+  background: none;
+}
+
+.editor-preview {
+  background-color: white !important;
+}
+
+.CodeMirror .cm-spell-error:not(.cm-url):not(.cm-comment):not(.cm-tag):not(.cm-word) {
+  background-color: transparent !important;
+}
+
